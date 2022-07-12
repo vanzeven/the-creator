@@ -1,0 +1,105 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body
+{
+    height: 100vh;
+    font-family: 'Poppins';
+}
+
+.webgl
+{
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
+
+#blocker {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5)
+}
+
+#instructions {
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#crosshair {
+    font-size: 2rem;;
+    font-weight: bold;
+    color: rgb(88, 236, 255);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+ .inv-table {
+    /* font-size: 2rem;
+    font-weight: bold;
+    color: rgb(88, 236, 255);
+    top: 10%;
+    left: 15%;
+    transform: translate(-50%, -50%);  */
+    position: absolute;
+    width: 50em;
+    z-index: 1;
+}
+
+.menu-title {
+    font-size: 2rem;
+    color: azure;
+}
+
+.menu-dashboard {
+    font-size: 1.5rem;
+    color: azure;
+}
+
+/* table {
+    border-collapse: collapse;
+} */
+/* table, th, td {
+    border: 1px solid black;
+} */
+
+#button-back {
+    left: 10%;
+    top: 90%;
+    position: absolute;
+}
+
+#button-confirm {
+    top: 90%;
+    left: 50%;
+    position: absolute;
+}
+
+.button {
+    font-size: 2rem;;
+    font-weight: bold;
+    padding: 1rem 3rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    cursor: pointer;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+}
